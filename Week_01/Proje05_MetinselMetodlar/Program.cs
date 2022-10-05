@@ -62,7 +62,7 @@ class Program
         Console.WriteLine(sonuc);
         */
 
-        string adres = "Selami şehit Ali mh. Can sk. No:6 Kadıköy/İstanbul";
+        // string adres = "Selami şehit Ali mh. Can sk. No:6 Kadıköy/İstanbul";
         /*
         bool sonuc = adres.EndsWith("İstanbul");//Sonunda ki kelimeyi kontrol eder.
         bool sonuc2 = adres.StartsWith("İstanbul");
@@ -76,9 +76,27 @@ class Program
         int siraNo = adres.ToLower().IndexOf(aranacakIfade.ToLower());
         Console.WriteLine($"C harfi {adres} içinde, {siraNo} sıradadır");
         */
+
+        /*
         string aranacakIfade = "Şehit Ali";
 
         int siraNo = adres.ToUpper().IndexOf(aranacakIfade.ToUpper());
-        Console.WriteLine($"{aranacakIfade} ifadesi, {adres} içinde,{siraNo} sıradadır");
+        Console.WriteLine($"{aranacakIfade} ifadesi, {adres} içinde,{siraNo} sıradadır.");
+        */
+        /*
+        string metin = "Wissen Akademia";
+        Console.WriteLine($"Metnin ilk hali :{metin}");
+        Console.WriteLine($"Akademia ifadesi silidikten sonraki hali :{metin.Remove(7)}");
+        Console.WriteLine($"Aka ifadesi silindikten sonraki hali:{metin.Remove(7,3)}");
+        */
+
+        string urunAd = "IPhone 13 Pro";
+        //iphone-13-pro
+        //string sonuc = (urunAd.Replace(" ", "-")).ToLower();
+        string sonuc = urunAd.ToLower().Replace(" ", "-");
+        Console.WriteLine(sonuc);
+        string sonuc2 = urunAd.Replace("IPhone", "Samsung");
+        Console.WriteLine(sonuc2);
+
     }
 }

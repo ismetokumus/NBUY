@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\bin\Debug\net6.0\Proje06_MatematikselMetodlar.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\bin\Debug\net6.0\Proje06_MatematikselMetodlar.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\bin\Debug\net6.0\Proje06_MatematikselMetodlar.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\bin\Debug\net6.0\Proje06_MatematikselMetodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\bin\Debug\net6.0\Proje06_MatematikselMetodlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\refint\Proje06_MatematikselMetodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\Proje06_MatematikselMetodlar.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje06_MatematikselMetodlar\obj\Debug\net6.0\ref\Proje06_MatematikselMetodlar.dll
