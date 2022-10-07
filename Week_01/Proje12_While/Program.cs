@@ -122,35 +122,45 @@ class Program
 
 
         // } while (tahminEdilenSayi < uretilenSayi && hak <= haksiniri);
-
+        string mesaj = "";
         do
         {
             Console.Write($"{hak}. Tahmininizi giriniz(1-100): ");
             tahminEdilenSayi = Convert.ToInt32(Console.ReadLine());
-            if (tahminEdilenSayi>uretilenSayi)
+            if (tahminEdilenSayi > uretilenSayi)
             {
-                System.Console.WriteLine("Büyük girdin");
+                mesaj = "Büyük girdin!";
+
             }
-            else if(tahminEdilenSayi<uretilenSayi)
+            else if (tahminEdilenSayi < uretilenSayi)
             {
-                System.Console.WriteLine("Küçük girdin");
+                mesaj = "Küçük girdin!";
+
             }
-            if(tahminEdilenSayi!=uretilenSayi)
+            if (tahminEdilenSayi != uretilenSayi)
             {
                 hak++;
-                if (hak<=haksiniri)
-                {
-                    System.Console.WriteLine("Kaybettin");
-                }
+                if (hak <= haksiniri) System.Console.WriteLine(mesaj);
             }
-            else
-            {
-                System.Console.WriteLine("Kazandın!");
-            }
-            
-        } while (tahminEdilenSayi != uretilenSayi && hak<=haksiniri );
-        //eğer program bu satıra gelmişse ya doğru tahminde bulunulmuştur ya da hak sona ermiştir.
 
+
+        } while (tahminEdilenSayi != uretilenSayi && hak <= haksiniri);
+
+            mesaj=tahminEdilenSayi==uretilenSayi?"kazandınız": "kaybettiniz";
+            System.Console.WriteLine(mesaj);
+            /*
+        if (tahminEdilenSayi == uretilenSayi)
+        {
+            System.Console.WriteLine("KAZANDINIZ");
+        }
+        else
+        {
+            System.Console.WriteLine("KAYBETTİNİZ");
+        }
+
+        //eğer program bu satıra gelmişse ya doğru tahminde bulunulmuştur ya da hak sona ermiştir.
+        //KESİNLİKLE BU PROGRAM ÇOK ÇEŞİTLİ/FARKLI ALGORİTMALARLA ÇÖZÜLEBİLİR.
+        */
 
 
 
