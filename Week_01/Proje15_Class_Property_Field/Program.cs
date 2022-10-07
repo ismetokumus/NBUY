@@ -53,7 +53,7 @@
 
             public int Ad
             {
-                get { return ad; }
+                get { return ad; }//burdahata var bul*************************************
                 set { ad = value; }
             }
 
