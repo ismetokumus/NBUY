@@ -10,9 +10,21 @@
              * 2) Puan sistemi olsun.(1. Tercihinde bildiyse 50, bilmedikçe 10'ar 10'ar düşsün.)
              * 3) Oyunu kaybettiğinde ya da kazandığında YENİDEN OYNAMAK İSTİYOR ise OYNAYABİLSİN.
              */
-            
-            Console.Write($"Lütfen tahmininizi giriniz: ");
-            int tahmin =Convert.ToInt32(Console.ReadLine());
+
+            string tercih;
+            do
+            {
+                Console.Clear();
+                Oyun.Oyna();
+                do
+                {
+                    Console.Write("Yeniden oynamak istermisiniz?[E/H]");
+                    tercih = Console.ReadLine().ToUpper();
+
+                } while (tercih!="H" && tercih!="E");
+
+            } while (tercih!="H");
+            Console.ReadLine();
             
         }
     }

@@ -15,9 +15,9 @@ namespace Proje03_Sayi_Bulmaca_With_Methods
             return sayi;
         }
 
-        public static int Tahmin(int tahminSiraNo)
+        public static int TahminGir(int tahminSiraNo)
         {
-            Console.WriteLine($"{tahminSiraNo}. tahmininizi giriniz: ");
+            Console.Write($"{tahminSiraNo}. tahmininizi giriniz: ");
             return int.Parse(Console.ReadLine());
         }
         public static string TespitEt(int tahmin,int sayi)
@@ -39,17 +39,19 @@ namespace Proje03_Sayi_Bulmaca_With_Methods
             Console.WriteLine($"Hile | Üretilen sayı: {sayi}");
             for (int i = 1; i <= 5; i++)
             {
-                tahmin = Tahmin(i);
+                tahmin = TahminGir(i);
                 if (tahmin==sayi)
                 {
                     sonuc = true;
                     break;
                 }
                 mesaj = TespitEt(tahmin, sayi);
+                if (i != 5) Console.WriteLine(mesaj);
                 puan -= 10;
             }
 
-            mesaj=sonuc==true?$"Kazandınız,puanınız: {puan}":"Kaybettiniz
+            mesaj = sonuc == true ? $"Kazandınız,puanınız: {puan}" : "Kaybettiniz";
+            Console.WriteLine(mesaj);
         }
     }
 }
