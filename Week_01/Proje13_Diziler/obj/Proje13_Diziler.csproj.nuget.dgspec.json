@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj",
         "projectName": "Proje13_Diziler",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
