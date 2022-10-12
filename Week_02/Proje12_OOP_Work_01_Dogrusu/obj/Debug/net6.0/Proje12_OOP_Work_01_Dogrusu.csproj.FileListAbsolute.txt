@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\bin\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\bin\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\bin\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\bin\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\bin\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\refint\Proje12_OOP_Work_01_Dogrusu.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\Proje12_OOP_Work_01_Dogrusu.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje12_OOP_Work_01_Dogrusu\obj\Debug\net6.0\ref\Proje12_OOP_Work_01_Dogrusu.dll

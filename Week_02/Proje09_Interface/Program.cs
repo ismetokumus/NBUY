@@ -1,5 +1,12 @@
 ﻿namespace Proje09_Interface
 {
+    /*Interface ler için belirtilmediğinde defoult erişim belirleyici publictir.
+     * Interfaceler protected private static olarak işaretlenemezler.
+     * Interfaceler içinde çalışabilir kodlar olamaz sadece imzası bulunur.
+     * Bir ınterface, bir ya da daha fazla ınterfaceden miras alabilir.
+     * Bir ınterface class dan miras alamaz.
+     * Eğer bir class bir ınterfaceden miras alıyorsa miras aldığı ınterfcadeki  tüm metodları implemente etmek zorundadır.(Implemente : Miras alınan ınterfacede imzası bulunan tüm metodların, içi dolu halleri.)
+     */
     interface IPersonel
     {
         public string Departman { get; set; }
@@ -62,9 +69,30 @@
 
             //IPersonel personel = new IPersonel(); //Hatalı kullanım
 
-            Yonetici yonetici1 =new Yonetici();
-            Yonetici yonetici2=new Yonetici("Alex de Souza","Rio de Jenerio","5000","Futbol");
+            //Yonetici yonetici1 =new Yonetici();
+            //Yonetici yonetici2=new Yonetici("Alex de Souza","Rio de Jenerio","5000","Futbol");
 
+            Product product1 = new Product()
+            {
+                Id = 1,
+                Name = "Iphone 13",
+                Price = 5900,
+                Properties = "8 gb ram",
+                Ratio = 0.5m,
+                CreatedDate = DateTime.Now
+
+            };
+            Console.WriteLine($"Product Name: {product1.Name}(Büyük harf: {product1.NameToUpper(product1.Name)}) Properties: {product1.Properties}");
+
+            Category category1 = new Category()
+            {
+                Id = 1,
+                Name = "Telefon",
+                CreatedDate = DateTime.Now,
+                Description = "Bu kategori telefonlar içindir."
+            };
+            Console.WriteLine($"Category Name: {category1.Name}");
+            Console.ReadLine();
         }
     }
 }
