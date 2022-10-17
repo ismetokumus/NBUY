@@ -1,0 +1,1 @@
+buradaki index i hocanın istediği gibi pazartesinden önce teslim et
