@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        /* pencerein sol üst tarafına uyarı Dikkat deme*/
+        .model{
+            width: 400px;
+            height: 250px;
+            background-color: bisque;
+            border: 1px solid navy;
+            border-radius: 5px;
+            position: relative;
+            top: calc((100uv - 250px)/2);
+            left: calc(50% - 200px);
+            padding: 5px;
+        }
+        .x_button{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: red;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: aliceblue;
+        }
+        .message{
+            position: absolute;
+            top: 70px;
+            left: 65px;
+        }
+        .close_button{
+            position: absolute;
+            bottom: 10px;
+            left: 185px;
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 7px 10px;
+            border-radius: 5px;
+        }
+        .dikkat{
+            position: absolute;
+            top: 0px;
+            left: 5px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="model">
+        <p class="dikkat">DİKKAT</p>
+        <button class="x_button">X</button>
+        <p class="message">Kapatmak için aşağıdaki butono tıklayınız</p>
+        <button class="close_button">Close</button>
+        <p class="dikkat">DİKKAT</p>
+    </div>
+</body>
+</html>
