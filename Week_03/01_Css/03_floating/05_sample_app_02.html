@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/buttons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Move Applicat</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Roboto Condensed', sans-serif;
+
+        }
+
+        .container {
+            width: 80%;
+            margin: 0px auto;
+            position: relative;
+            top: 60px;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .main_header {
+            background-color: tomato;
+            padding: 8px 16px;
+            position: fixed;
+            width: 80%;
+            top: 0px;
+            
+
+        }
+
+        .main_header_logo {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 21px;
+                       
+        }
+
+        .main_nav {
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 190px);
+            
+
+        }
+
+        .main_nav_items {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+            
+
+        }
+
+        .main_nav_item {
+            display: inline-block;
+            margin: 0px 10px;
+            
+
+        }
+
+        .main_nav_item a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main_nav_item a:hover {
+            color: rgb(44, 48, 119);
+        }
+
+        .main_nav_item_login a {
+            background-color: teal;
+            padding: 4px 16px;
+            border-radius: 8px;
+            border: 2px solid #fff;
+
+        }
+
+        .main_nav_item_login a:hover {
+            color: teal;
+            background-color: #fff;
+            border: 2px solid teal;
+        }
+
+        #showcase {
+            background: url(/01_Css/00_Images/home-bg.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            
+            background-size: cover;
+            background-color: rgb(38, 39, 59);
+            color: aliceblue;
+            
+            padding: 10px;
+            width: 100%;
+            height: 60vh;
+                     
+            /* height: 400px; */
+        }
+
+        #showcase h1 {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: inline;
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: relative;
+            top: calc(50% - 15px);
+            left: calc(50% - 150px);
+            
+        }
+
+        #how_it_works {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        #how_it_works h2 {
+            color: #3e4555;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .row {
+            margin-bottom: 40px;
+        }
+
+        .col-3 {
+            display: inline-block;
+            width: 30%;
+            margin: 8px;
+            padding: 16px;
+        }
+
+        .col-2 {
+            display: inline-block;
+            width: calc(50% - 2px);
+            height: 350px;
+            background-color: brown;
+        }
+
+        .icon_box i {
+            color: tomato;
+            padding: 10px;
+            font-size: 50px;
+            border-radius: 5px;
+        }
+
+        .icon_box h3 {
+            color: #3e4555;
+            font-size: 22px;
+        }
+
+        .features-left {
+            background: url(/01_Css/00_Images/features.jpeg);
+            background-position: top center;            
+            background-size: cover;
+        }
+
+        .features-right {
+            background-color: #edf5f7;
+            padding: 40px;
+            vertical-align: top;
+        }
+
+        .features-right h3 {
+            font-size: 30px;
+        }
+
+        /* .features-right a {
+            background-color: tomato;
+            color: #fff;
+            padding: 7px 15px;
+            text-decoration: none;
+            font-size: 14px;
+            border: 1px solid tomato;
+            display: inline-block;
+            margin-top: 15px;
+            border-radius: 3px;
+
+        }
+
+        .features-right a:hover {
+            background-color: #fff;
+            color: tomato;
+
+        } */
+
+        .section-title {
+            text-align: center;
+            font-size: 30px;
+            margin: 10px 0px;
+        }
+
+        .plan {
+            text-align: center;
+            padding: 16px;
+            width: 33.3%;
+            float: left;
+            background-color: #edf5f7;
+            color: tomato;
+
+        }
+
+        .inner-plan {
+            background-color: #edf5f7;
+            padding: 8px;
+            border-radius: 8px;
+
+        }
+
+        .inner-plan ul {
+            list-style-type: none;
+            padding: 0px;
+        }
+
+        .inner-plan ul li {
+            margin: 6px 0px;
+        }
+    </style>
+</head>
+
+<!-- WORK -->
+
+<!-- 1) Menümüzün yerinde sabit kalmasını sağlayınız. -->
+
+<!-- 2) Menü ile resim arasında bir miktar boşluk olsun. -->
+
+<!-- 3) Welcome yazısı resmin tam ortasında olsun. -->
+
+<body>
+    <div class="container">
+        <header class="main_header">
+            <!-- Burası sayfamızın üst kısmı -->
+            <a href="#" class="main_header_logo">Movie Application</a>
+            <nav class="main_nav">
+                <ul class="main_nav_items">
+                    <li class="main_nav_item"><a href="#">Home</a></li>
+                    <li class="main_nav_item"><a href="#">Movies</a></li>
+                    <li class="main_nav_item"><a href="#">Contact</a></li>
+                    <li class="main_nav_item main_nav_item_login"><a href="#"><i
+                                class="fa-solid fa-arrow-right-to-bracket"></i> Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="showcase">
+                <h1>Welcom to Movie Application</h1>
+            </section>
+            <section id="how_it_works">
+                <div class="row">
+                    <h2>How it works?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias assumenda, dolorum
+                        nemo voluptate soluta nihil obcaecati repudiandae magnam. Laboriosam dolor atque nihil aliquid
+                        quo laborum distinctio veniam ut harum.</p>
+                </div>
+                <div class="row">
+                    <div class="icon_box col-3">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <h3>Register</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus amet
+                            asperiores aliquam labore vel fuga numquam voluptas possimus error corporis modi velit et
+                            tempore facilis veritatis, sunt esse. Odit!</p>
+                    </div>
+                    <div class="icon_box col-3">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h3>Choose a Plan</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus amet
+                            asperiores aliquam labore vel fuga numquam voluptas possimus error corporis modi velit et
+                            tempore facilis veritatis, sunt esse. Odit!</p>
+                    </div>
+                    <div class="icon_box col-3">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>Enjoy Movies</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus amet
+                            asperiores aliquam labore vel fuga numquam voluptas possimus error corporis modi velit et
+                            tempore facilis veritatis, sunt esse. Odit!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="features">
+                <div class="row">
+                    <div class="col-2 features-left"></div>
+                    <div class="col-2 features-right">
+                        <h3>Watch all Movies and Tv Shows once they get released!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam recusandae soluta
+                            reprehenderit sequi et cupiditate temporibus, quidem, debitis quaerat nostrum quae excepturi
+                            ut quis illo nisi, eos enim ipsum.</p>
+                        <a class="btn btn-primary" href="">Features</a>
+                    </div>
+                </div>
+            </section>
+            <section id="plans">
+                <h2 class="section-title">Become a Preminum Number</h2>
+                <div>
+                    <div class="clearfix plan">
+                        <div class="inner-plan">
+                            <h2>Free</h2>
+                            <h3>0/month</h3>
+                            <ul>
+                                <li>lorem</li>
+                                <li>Lorem, ipsum. </li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, </li>
+                                <li>Lorem.</li>
+                            </ul>
+
+                            <div>
+                                <button class="btn btn-secondary">Chose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix plan">
+                        <div class="inner-plan">
+                            <h2>Recommended</h2>
+                            <h2>Basic</h2>
+                            <h3>$9.99/month</h3>
+                            <ul>
+                                <li>lorem</li>
+                                <li>Lorem, ipsum. </li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, </li>
+                                <li>Lorem.</li>
+                            </ul>
+
+                            <div>
+                                <button class="btn btn-primary">Chose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix plan">
+                        <div class="inner-plan">
+                            <h2>Premium</h2>
+                            <h3>$19.99/month</h3>
+                            <ul>
+                                <li>lorem</li>
+                                <li>Lorem, ipsum. </li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, </li>
+                                <li>Lorem.</li>
+                            </ul>
+
+                            <div>
+                                <button class="btn btn-secondary">Chose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
