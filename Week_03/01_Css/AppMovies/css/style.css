@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;/* elemanları sağa ve sola hizaladık iki yana yasladık*/
+    align-items: center;/*aynı hizaya getirdik */
+    background-color: tomato;
+    padding: 8px 16px; 
+    height: 70px;
+}
+
+.main_header_logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+               
+}
+
+.main_nav_items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    list-style-type: none;
+}
+
+.main_nav_item {
+    margin: 0 10px;
+}
+
+.main_nav_item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main_nav_item a:hover {
+    color: rgb(44, 48, 119);
+}
+
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom left,rgba(0,0,0,0.1),rgba(0,0,0,0.4)) , url(/images/home-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(38, 39, 59);
+    color: aliceblue;
+    padding: 10px;
+    width: 100%;
+    height: 80vh;
+    margin-top: 10px;
+             
+    /* height: 400px; */
+}
+
+#showcase .content {
+    background: rgba(46, 76, 109, 0.2);
+    color: white;
+    border-radius: 10px;   
+
+    padding: 60px; 
+    width: 50%;
+    text-align: center;
+}
+
+#showcase .content h1{
+    font-size: 50px;
+} 
+
+#how_it_works {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#how_it_works h2 {
+    color: #3e4555;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+.icon_box i {
+    color: tomato;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+.icon_box h3 {
+    color: #3e4555;
+    font-size: 22px;
+}
+
+.features-left {
+    background: url(/images/features.jpeg);
+    background-position: top center;            
+    background-size: cover;
+}
+
+.features-right {
+    background-color: #edf5f7;
+    padding: 40px;
+    vertical-align: top;
+}
+
+
+.features-right h3 {
+    font-size: 30px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #edf5f7;
+    border-radius: 8px;
+
+}
+
+.recommended-plan {
+    background-color: #396EB0 !important;
+    color: #fff;
+}
+.plan-badge {
+    background-color: #fff;
+    color: tomato;
+    padding: 8px;
+    border-radius: 5px;
+}
+.plan {
+   
+    padding: 8px;
+    border-radius: 8px;
+
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.plan ul li {
+    margin: 6px 0px;
+}
+/*Tarayıcı genişliği 32px altında ise bu kod çalışır */
+@media (max-width: 632px){
+    .main_header{
+        flex-direction: column;
+        height: auto;
+    }
+    .main_nav{
+        margin-top: 80px;
+    }
+    .main_nav_items{
+        flex-direction: column;
+    }
+}
+@media (max-width: 790px) {
+    #showcase .content h1{
+        font-size: 35px;
+    } 
+    #showcase .content h2{
+        font-size: 20px;
+    } 
+    
+    
+}
+@media (max-width: 650px) {
+    #showcase .content{
+        padding: 20px;
+    }
+    #showcase .content h1{
+        font-size: 20px;
+    } 
+    #showcase .content h2{
+        font-size: 12px;
+    } 
+    
+    
+}
+@media (max-width: 860px) {
+
+        .row{
+            
+            flex-direction: column;
+            align-items: center;
+            order: 1;
+        }
+        .col-3{
+            width: 80% !important ;
+            margin-bottom: 30px;
+            margin-left: 0 !important;
+            margin-right: 0 !important ;
+           
+            
+        }
+        .features-left{
+            height: 200px;
+        }
+        
+}
+
+@media (max-width: 860px) {
+
+    .recommended-plan{
+        order: -1;
+    }
+}
