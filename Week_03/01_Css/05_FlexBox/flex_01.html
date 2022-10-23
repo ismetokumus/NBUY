@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex Box 01</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,7 +28,8 @@
             display: flex;
             align-items: center;
         }
-        .footer{
+
+        .footer {
             height: 60px;
             color: #EDE4E0;
         }
@@ -40,7 +41,7 @@
 
         .content {
             display: flex;
-            /*burası eksik tamamla*/
+            flex-direction: row-reverse;
             margin-top: 12px;
             height: calc(100vh - 210px);
 
@@ -48,32 +49,35 @@
 
         .content-left {
             width: 25%;
-            display: flex;
-            flex-direction: column;
-
+           
         }
-        .content-left ul{
+
+        .content-left ul {
             list-style-type: none;
             padding: 0;
             margin: 0px;
         }
-        .content-left ul li{
+
+        .content-left ul li {
             padding: 10px 15px;
             margin-bottom: 8px;
-            background-color: #A8E890 ;
+            background-color: #A8E890;
             color: #9F8772;
-            
+
         }
-        .content-left ul li:hover{
+
+        .content-left ul li:hover {
             cursor: pointer;
-            background-color:#CFFF8D;
+            background-color: #CFFF8D;
         }
+
         .content-right {
             width: 75%;
-            padding-left: 15px;
+            /* padding-left: 15px; */
         }
-        .content-right h1{
-            color:#9F8772 ;
+
+        .content-right h1 {
+            color: #9F8772;
             margin: 0px;
         }
     </style>
@@ -86,16 +90,16 @@
         </div>
         <div class="content">
             <div class="content-left">
-                
-                <!-- <ul>
-                    
+
+                <ul>
+
                     <li>Html</li>
                     <li>Css</li>
                     <li>JavaScript</li>
-                </ul> -->
+                </ul>
             </div>
             <div class="content-right">
-                
+
                 <h1>Uygulama Geliştirici Eğitimi</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam libero illo provident? Animi
                     fugiat neque facere aliquam mollitia nesciunt obcaecati similique, quibusdam, quos tenetur officia
