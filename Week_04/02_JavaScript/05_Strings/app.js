@@ -36,9 +36,9 @@ sonuc=ders.toLocaleUpperCase().indexOf('A');
 sonuc=ders.split(' ');
 
 
-sonuc=ders.includes('a');
-sonuc=ders.startsWith('H');
-sonuc=ders.
+// sonuc=ders.includes('a');
+// sonuc=ders.startsWith('H');
+// sonuc=ders.
 
 console.log(ders);
 console.log(sonuc);
