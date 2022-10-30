@@ -183,11 +183,11 @@
 // console.log(Boolean('0'));
 
 let a;
-a = "" + 1 + 0;console.log(a, typeof a);
-a = "" - 1 + 0;console.log(a, typeof a);
-a = true + false;console.log(a, typeof a);
-a = 6 / "3";console.log(a, typeof a);
-a = 4 + 5 + "px";console.log(a, typeof a);
+a = "" + 1 + 0; console.log(a, typeof a);
+a = "" - 1 + 0; console.log(a, typeof a);
+a = true + false; console.log(a, typeof a);
+a = 6 / "3"; console.log(a, typeof a);
+a = 4 + 5 + "px"; console.log(a, typeof a);
 a = "$" + 4 + 5; console.log(a, typeof a);
 a = "4px" - 2; console.log(a, typeof a);
 a = "      -9      " + 5; console.log(a, typeof a);

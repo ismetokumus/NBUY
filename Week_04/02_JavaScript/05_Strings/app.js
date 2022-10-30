@@ -31,9 +31,9 @@ sonuc=ders.trimStart();
 sonuc=ders.trimEnd();
 
 sonuc=ders.indexOf('A');
-sonuc=ders.toLocaleUpperCase().indexOf('A');
+// sonuc=ders.toLocaleUpperCase().indexOf('A');
 
-sonuc=ders.split(' ');
+// sonuc=ders.split(' ');
 
 
 // sonuc=ders.includes('a');
