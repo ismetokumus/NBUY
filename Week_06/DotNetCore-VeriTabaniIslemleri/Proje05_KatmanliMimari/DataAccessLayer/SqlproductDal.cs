@@ -3,7 +3,7 @@ using Proje05_KatmanliMimari.DataAccessLayer.Entities;
 
 namespace Proje05_KatmanliMimari.DataAccessLayer
 {
-    public class SqlproductDal : IProductDAL
+    public class SqlProductDAL : IProductDAL
     {
         private SqlConnection GetSqlConnection()
         {
