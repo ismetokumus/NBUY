@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Proje05_MVC_EfCore_CodeFirst.Models;
-using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore;
 
 namespace Proje05_MVC_EfCore_CodeFirst.Controllers
 {

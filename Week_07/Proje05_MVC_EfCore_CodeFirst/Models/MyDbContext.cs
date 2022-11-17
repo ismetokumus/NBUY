@@ -12,6 +12,7 @@ namespace Proje05_MVC_EfCore_CodeFirst.Models
         public DbSet<Product> Products { get; set; }
         public DbSet<City> Citys { get; set; }
 
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=First.db");
