@@ -1,0 +1,25 @@
+@model List<City>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1 class="display-6">City List</h1>
+<hr>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Product</th>            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.Name</td>
+                <td>@c.Product.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

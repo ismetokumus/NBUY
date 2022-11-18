@@ -10,7 +10,6 @@ using ProjeDeneme_MVC_Efcore_CodeFirst.Models;
 
 namespace ProjeDeneme_MVC_Efcore_CodeFirst.Controllers
 {
-   
     public class ProductController : Controller
     {
         public IActionResult Index()

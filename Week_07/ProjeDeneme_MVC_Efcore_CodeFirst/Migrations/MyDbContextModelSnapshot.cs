@@ -30,8 +30,7 @@ namespace ProjeDeneme_MVC_Efcore_CodeFirst.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId")
-                        .IsUnique();
+                    b.HasIndex("ProductId");
 
                     b.ToTable("City");
 
@@ -40,31 +39,31 @@ namespace ProjeDeneme_MVC_Efcore_CodeFirst.Migrations
                         {
                             Id = 1,
                             Name = "Rize",
-                            ProductId = 0
+                            ProductId = 1
                         },
                         new
                         {
                             Id = 2,
                             Name = "Kars",
-                            ProductId = 0
+                            ProductId = 2
                         },
                         new
                         {
                             Id = 3,
                             Name = "Samsun",
-                            ProductId = 0
+                            ProductId = 3
                         },
                         new
                         {
                             Id = 4,
                             Name = "İstanbul",
-                            ProductId = 0
+                            ProductId = 4
                         },
                         new
                         {
                             Id = 5,
                             Name = "Ankara",
-                            ProductId = 0
+                            ProductId = 1
                         });
                 });
 
@@ -106,16 +105,13 @@ namespace ProjeDeneme_MVC_Efcore_CodeFirst.Migrations
 
             modelBuilder.Entity("ProjeDeneme_MVC_Efcore_CodeFirst.Models.City", b =>
                 {
-                    b.HasOne("ProjeDeneme_MVC_Efcore_CodeFirst.Models.Product", null)
-                        .WithOne("City")
-                        .HasForeignKey("ProjeDeneme_MVC_Efcore_CodeFirst.Models.City", "ProductId")
+                    b.HasOne("ProjeDeneme_MVC_Efcore_CodeFirst.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
 
-            modelBuilder.Entity("ProjeDeneme_MVC_Efcore_CodeFirst.Models.Product", b =>
-                {
-                    b.Navigation("City");
+                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }

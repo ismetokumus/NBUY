@@ -11,6 +11,7 @@ namespace ProjeDeneme_MVC_Efcore_CodeFirst.Models
         public string Name { get; set; }
         public int ProductId { get; set; }
         
+        public Product Product { get; set; }
 
     }
 }

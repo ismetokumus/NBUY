@@ -28,11 +28,11 @@ namespace ProjeDeneme_MVC_Efcore_CodeFirst.Models
             
             modelBuilder.Entity<City>()
                 .HasData(
-                    new City(){Id=1, Name="Rize"},
-                    new City(){Id=2, Name="Kars"},
-                    new City(){Id=3, Name="Samsun"},
-                    new City(){Id=4, Name="İstanbul"},
-                    new City(){Id=5, Name="Ankara"}
+                    new City(){Id=1, Name="Rize", ProductId=1},
+                    new City(){Id=2, Name="Kars", ProductId=2},
+                    new City(){Id=3, Name="Samsun", ProductId=3},
+                    new City(){Id=4, Name="İstanbul", ProductId=4},
+                    new City(){Id=5, Name="Ankara", ProductId=1}
                 );
         }
     }
