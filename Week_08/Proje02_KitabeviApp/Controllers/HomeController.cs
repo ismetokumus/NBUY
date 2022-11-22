@@ -50,9 +50,9 @@ public class HomeController : Controller
                 BasimYili = k.BasimYili,
                 SayfaSayisi = k.SayfaSayisi,
                 YazarAd = k.Yazar.Ad,
-                KategoriAd = k.Kategori.AdAd
+                KategoriAd = k.Kategori.Ad
         }).ToList();
-        return View(kitaplar);
+        return View(kitapListViewModels);
     }
     public IActionResult Detay(int id)
     {
