@@ -53,3 +53,7 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web\obj\Debug\net6.0\KitabeviApp.Web.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web\obj\Debug\net6.0\KitabeviApp.Web.genruntimeconfig.cache
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web\obj\Debug\net6.0\ref\KitabeviApp.Web.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web\bin\Debug\net6.0\KitabeviApp.Data.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web\bin\Debug\net6.0\KitabeviApp.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web\bin\Debug\net6.0\KitabeviApp.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje04\KitabeviApp\KitabeviApp.Web\bin\Debug\net6.0\KitabeviApp.Entity.pdb
