@@ -51,13 +51,16 @@ public class HomeController : Controller
     }
     public IActionResult KategoriGuncelle(int id)
     {
-        Kategori kategori = kategoriRepository.KategoriGetir(id);
+
+        var kategoriManager = new KategoriManager();
+        Kategori kategori = kategoriManager.KategoriGetir(id);
         return View(kategori);
     }
     [HttpPost]
     public IActionResult KategoriGuncelle(Kategori kategori)
     {
-        kategoriRepository.KategoriGuncelle(kategori);
+        var kategoriManager = new KategoriManager();
+        kategoriManager.KategoriGuncelle(kategori);
         return RedirectToAction("KategoriListesi");
     }
     public IActionResult KategoriSil(int id)

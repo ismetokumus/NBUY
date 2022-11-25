@@ -24,7 +24,8 @@ namespace KitabeviApp.Business.Concrete
 
         public void KategoriGuncelle(Kategori kategori)
         {
-            throw new NotImplementedException();
+            var kategoriRepository = new EfCoreKategoriRepository();
+            kategoriRepository.KategoriGuncelle(kategori);
         }
 
         public List<Kategori> KategoriListele()
