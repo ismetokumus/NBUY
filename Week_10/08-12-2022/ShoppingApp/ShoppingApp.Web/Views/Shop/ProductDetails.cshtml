@@ -1,0 +1,43 @@
+﻿@using ShoppingApp.Web.Models.Dtos
+@model ProductDetailsDto
+
+<div>@Model.Id</div>
+<div>@Model.Name</div>
+<div>@Model.Price</div>
+<div>@Model.ImageUrl</div>
+<div>@Model.Url</div>
+<div>@Model.Description</div>
+<div>
+    KATEGORİLER
+    @foreach (var category in Model.Categories)
+    {
+    }
+</div>
+<div class="row">
+    @foreach (var category in Model.Categories)
+    {}
+
+        <div class="card mb-3" >
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/@Model.ImageUrl" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.Name</h5>
+                            @foreach (var category in Model.Categories)
+                            {
+                                <a href="">@category.Name</a>
+                            }
+                        <p class="card-text"> Açıklama : @Model.Description</p>
+                        <p class="card-text"> Ürün Fiyatı : @($"{Model.Price:C2}")</p>
+
+                    </div>
+                    <div class="card-footer text-center">
+                    <a class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i> Sepete Ekle</a>
+                    <a class="btn btn-danger"><i class="fa-solid fa-heart"></i> Favorilere Ekle</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+</div>
