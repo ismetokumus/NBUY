@@ -90,5 +90,21 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
                 .FirstOrDefaultAsync();
                 
         }
+
+        public async Task UpdateProductAsync(Product product, int[] selectedCategoryIds)
+        {
+            Product newProduct = await ShopAppContext
+                .Products
+                .Include(p => p.ProductCategories)
+                .FirstOrDefaultAsync(p => p.Id == product.Id);
+            newProduct.ProductCategories = selectedCategoryIds
+                .Select(catId=> new ProductCategory
+                {
+                    ProductId=newProduct.Id,
+                    CategoryId=catId
+                }).ToList();
+            ShopAppContext.Update(newProduct);
+            await ShopAppContext.SaveChangesAsync();
+        }
     }
 }

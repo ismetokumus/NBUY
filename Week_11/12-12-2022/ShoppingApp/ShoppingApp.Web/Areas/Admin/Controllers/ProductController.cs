@@ -3,6 +3,7 @@ using ShoppingApp.Business.Abstract;
 using ShoppingApp.Core;
 using ShoppingApp.Entity.Concrete;
 using ShoppingApp.Web.Areas.Admin.Models.Dtos;
+using System.Runtime.CompilerServices;
 
 namespace ShoppingApp.Web.Controllers
 {
@@ -67,16 +68,24 @@ namespace ShoppingApp.Web.Controllers
         public async Task<IActionResult> Edit(int Id)
         {
             
-            var productWithCategories = await _productService.GetProductWithCategories(Id);
-            var productUpdateDto = new ProductUpdateDto
+            var product = await _productService.GetProductWithCategories(Id);
+            ProductUpdateDto productUpdateDto = new ProductUpdateDto
             {
-                
+                Id=product.Id,
+                Name=product.Name,
+                Price=product.Price,
+                Description=product.Description,
+                IsApproved = product.IsApproved,
+                IsHome = product.IsHome,
+                ImageUrl =product.ImageUrl,
+                Categories = await _categoryService.GetAllAsync(),
+                SelectedCategoryIds = product.ProductCategories.Select(pc=>pc.CategoryId).ToArray()
                 
             };        
             return View(productUpdateDto);
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(ProductUpdateDto productUpdateDto)
+        public async Task<IActionResult> Edit(ProductUpdateDto productUpdateDto, int[] selectedCategoryIds)
         {
             if (ModelState.IsValid)
             {
@@ -93,8 +102,24 @@ namespace ShoppingApp.Web.Controllers
                 product.IsHome = productUpdateDto.IsHome;
                 product.ImageUrl = Jobs.UploadImage(productUpdateDto.ImageFile);
                 product.Url = url;
-                await _productService.UpdateProduct()
+                await _productService.UpdateProductAsync(product,selectedCategoryIds);
+                return RedirectToAction("Index");
             }
+            var categories = await _categoryService.GetAllAsync();
+            productUpdateDto.Categories = categories;
+
+            return View(productUpdateDto);
+        }
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var product = await _productService.GetByIdAsync(id);
+            if (product==null)
+            {
+                return NotFound();
+            }
+            _productService.Delete(product);
+            return RedirectToAction("Index");
         }
     }
 }

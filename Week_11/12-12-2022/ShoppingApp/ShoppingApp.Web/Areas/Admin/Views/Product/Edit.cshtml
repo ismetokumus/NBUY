@@ -1,5 +1,4 @@
-﻿@using ShoppingApp.Entity.Concrete;
-@model Product
+﻿@model ProductUpdateDto
 <h1>Yeni Ürün Ekleme</h1>
 <hr />
 <form class=""
@@ -25,9 +24,10 @@
             </div>
 
             <div class="mb-3">
-                <label asp-for="ImageUrl" class="form-label"></label>
-                <input type="file" asp-for="ImageUrl" accept="image/" />
-                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                <label asp-for="ImageFile" class="form-label"></label>
+                <input type="file" asp-for="ImageFile" accept="image/" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                <img src="~/images/@(Model.ImageUrl!=null ? Model.ImageUrl :"NoPicture.png")"/>
             </div>
             <div class="mb-3">
                 <label asp-for="Description" class="form-label"></label>
@@ -39,19 +39,19 @@
         </div>
         <div class="col-4">
             <div class="mb-3">
-                <label asp-for="ProductCategories"></label>
-                @foreach (var category in Model.ProductCategories)
+                <label asp-for="Categories"></label>
+                @foreach (var category in Model.Categories)
                 {
                     <div>
                         <input type="checkbox"
                            class="form-check-input"
                            name="selectedCategoryIds"
-                           value="@Model.ProductCategories"
-                           @if (Model.ProductCategories != null)
+                           value="@category.Id"
+                           @if (Model.SelectedCategoryIds != null)
                            {
-                           @(Model.ProductCategories.Any(sc=>sc==category)?"checked" : "")
+                           @(Model.SelectedCategoryIds.Any(sc=>sc==category.Id)?"checked" : "")
                            } />
-                        <label>@Model.ProductCategories</label>
+                        <label>@category.Name</label>
                     </div>
                 }
                 <span asp-validation-for="Price" class="text-danger"></span>

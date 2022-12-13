@@ -78,6 +78,11 @@ namespace ShoppingApp.Business.Concrete
             return await _unitOfWork.Products.GetProductWithCategories(id);
         }
 
+        public async Task UpdateProductAsync(Product product, int[] selectedCategoryIds)
+        {
+            await _unitOfWork.Products.UpdateProductAsync(product, selectedCategoryIds);
+        }
+
         #endregion
     }
 }
