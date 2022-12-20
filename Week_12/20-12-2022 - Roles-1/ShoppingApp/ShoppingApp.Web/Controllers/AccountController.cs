@@ -238,23 +238,28 @@ namespace ShoppingApp.Web.Controllers
             {
                 TempData["Message"] = Jobs.CreateMessage("Başarılı!", "Profiliniz başarıyla kaydedilmiştir.", "success");
 
-            }
+                List<SelectListItem> genderList = new List<SelectListItem>();
+                genderList.Add(new SelectListItem
+                {
+                    Text = "Kadın",
+                    Value = "Kadın",
+                    Selected = user.Gender == "Kadın" ? true : false
+                });
+                genderList.Add(new SelectListItem
+                {
+                    Text = "Erkek",
+                    Value = "Erkek",
+                    Selected = user.Gender == "Erkek" ? true : false
+                });
+                userManageDto.GenderSelectList = genderList;
+                ViewBag.Den = userManageDto.UserName;
+                return View(userManageDto);
 
-            List<SelectListItem> genderList = new List<SelectListItem>();
-            genderList.Add(new SelectListItem
-            {
-                Text = "Kadın",
-                Value = "Kadın",
-                Selected = user.Gender == "Kadın" ? true : false
-            });
-            genderList.Add(new SelectListItem
-            {
-                Text = "Erkek",
-                Value = "Erkek",
-                Selected = user.Gender == "Erkek" ? true : false
-            });
-            userManageDto.GenderSelectList = genderList;
-            return View(userManageDto);
+
+            }
+            return RedirectToAction("Manage", "Account");
+
+
             //ÖDEV: Eğer kullanıcı adı değiştirilmişse sağ üst köşedeki username bölümünün güncellenmesini JavaScript kodları yazarak sağlayınız.
             //Veya "Benim aklmıma başka çözüm geldi" diyen varsa, kabülümüzdür :)
         }
