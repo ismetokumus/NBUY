@@ -95,7 +95,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             return View(roleDetailsDto);
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(RoleEditDetailsDto roleEditDetailsDto, string From)
+        public async Task<IActionResult> Edit(RoleEditDetailsDto roleEditDetailsDto,UserRolesDto userRolesDto, string From)
         {
             if (ModelState.IsValid)
             {
@@ -128,7 +128,8 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
                 }
                 
             }
-            return Redirect("/Admin/Role/Edit/" + roleEditDetailsDto.RoleId);
+            return View("UserRoles", userRolesDto);
+            //return Redirect("/Admin/Role/Edit/" + roleEditDetailsDto.RoleId);
 
         }
         [NonAction]
@@ -189,5 +190,6 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             return View("UserRoles",userRolesDto);
 
         }
+        
     }
 }
