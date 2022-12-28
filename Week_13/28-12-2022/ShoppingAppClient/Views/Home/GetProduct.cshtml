@@ -1,0 +1,16 @@
+﻿@model ProductViewModel
+
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="http://localhost:5200/images/@Model.ImageUrl" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="text-primary">Ürün Fiyatı = @($"{Model.Price:C0}")</p>
+                <p class="text-primary">Açıklama = @Model.Description</p>
+            </div>
+        </div>
+    </div>
+</div>
