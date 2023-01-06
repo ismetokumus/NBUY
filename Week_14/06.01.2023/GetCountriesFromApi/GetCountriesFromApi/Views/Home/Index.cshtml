@@ -1,0 +1,34 @@
+﻿@model List<CountryViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ülke</th>
+            <th>Başkent</th>
+            <th>Nüfus</th>
+            <th>Dil</th>
+            <th>Araç Trafiği</th>
+            <th>Bayrak</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var country in Model)
+        {
+            <tr>
+                <td>@country.Name.Common</td>
+                <td>
+                    @if (country.Capital!=null)
+                    {
+                        
+                    }
+                </td>
+                <td>
+                    <img src="@country" width="200" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
