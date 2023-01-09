@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid04_LiskovsSubstitution", "Solid04_LiskovsSubstitution.csproj", "{979AB118-20FE-4815-96CC-8DB54ACAA819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{979AB118-20FE-4815-96CC-8DB54ACAA819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979AB118-20FE-4815-96CC-8DB54ACAA819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979AB118-20FE-4815-96CC-8DB54ACAA819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979AB118-20FE-4815-96CC-8DB54ACAA819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9823F53E-05DC-4045-92CF-0A0741E81921}
+	EndGlobalSection
+EndGlobal
