@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj": {}
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj",
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj",
         "projectName": "Solid04_LiskovsSubstitution",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\Solid04_LiskovsSubstitution.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\obj\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_15\\SOLID\\Solid04_LiskovsSubstitution\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
