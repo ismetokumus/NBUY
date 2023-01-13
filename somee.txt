@@ -1,0 +1,24 @@
+https://somee.com/
+
+username= ismetokumus
+
+Site hazır dediğimizde
+
+-appsettings.json üzerinde sql server da çalıştığımızdan 
+
+-web/bin/debug
+
+-FTP dosya aktarım.
+
+-sıkıtırılmış dosya yüklenecek 
+
+-somee da veri tabanın oluşturulacak orada oluşturlan veri tabanı adı ve user-password appsettings.json
+dosyasında sql kısmına yazıyoruz yada connection strinde verilen girilir ve daha sonra trustServerCertificate .
+
+-yeni bir migrations yapılır
+
+-web projesindeyken build/publis wep/folder 
+
+-daha sonra publish komutu veriliyor.
+
+-klösere gidip dosyaları sıkıştırıyoruz.
