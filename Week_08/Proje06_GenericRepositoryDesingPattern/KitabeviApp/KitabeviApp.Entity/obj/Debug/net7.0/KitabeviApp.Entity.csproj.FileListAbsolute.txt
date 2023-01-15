@@ -22,3 +22,15 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPatt
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\refint\KitabeviApp.Entity.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\ref\KitabeviApp.Entity.dll
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\bin\Debug\net7.0\KitabeviApp.Entity.deps.json
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\bin\Debug\net7.0\KitabeviApp.Entity.dll
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\bin\Debug\net7.0\KitabeviApp.Entity.pdb
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.dll
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\refint\KitabeviApp.Entity.dll
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\KitabeviApp.Entity.pdb
+C:\Users\User\Documents\GitHub\NBUY\Week_08\Proje06_GenericRepositoryDesingPattern\KitabeviApp\KitabeviApp.Entity\obj\Debug\net7.0\ref\KitabeviApp.Entity.dll
