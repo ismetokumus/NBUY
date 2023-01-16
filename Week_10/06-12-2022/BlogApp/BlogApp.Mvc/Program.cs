@@ -36,6 +36,7 @@ else
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();//wwwroot kýsmý
 
 app.UseRouting();
